@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Dice Game fertig. Tic Tac Toe angefangen.">
+    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Tic Tac Toe fertig, OO Einstieg toutorials geschaut.">
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/CarObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,21 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TicTacToe">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\letoh\Desktop\Java3cWI\src" />
+      <recent name="C:\Users\letoh\Desktop\Java3cWI\out\production\Java3cWI" />
+      <recent name="C:\Users\letoh\Desktop\Java3cWI\out" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Car" />
+      <module name="Java3cWI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiceGame" />
       <module name="Java3cWI" />
@@ -60,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.DiceGame" />
         <item itemvalue="Application.IfStatement" />
@@ -96,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665399886176</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tic Tac Toe fertig, OO Einstieg toutorials geschaut.">
+      <created>1666004519031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666004519031</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +137,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="If Statement gemacht, Dice Game weiterprogrammiert(nicht fertig)" />
     <MESSAGE value="Dice Game fertig. Tic Tac Toe angefangen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dice Game fertig. Tic Tac Toe angefangen." />
+    <MESSAGE value="Tic Tac Toe fertig, OO Einstieg toutorials geschaut." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tic Tac Toe fertig, OO Einstieg toutorials geschaut." />
   </component>
 </project>
