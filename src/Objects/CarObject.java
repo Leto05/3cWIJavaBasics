@@ -1,12 +1,22 @@
 package Objects;
 
 public class CarObject {
-    public int fuelConsumption;
-    public String brand;
-    public String serialnumber;
-    public int fuelAmount;
-    public String carBreaks = "Ich bremse";
-    public int maxFuel;
+    private int fuelConsumption;
+    private String brand;
+    private String serialnumber;
+    private int fuelAmount;
+    private String carBreaks = "Ich bremse";
+    private int maxFuel;
+    private String colour;
+    public CarObject (int fuelConsumption, String brand, String serialNumber, int fuelAmount,int maxFuel,String colour)
+    {
+        this.fuelConsumption=fuelConsumption;
+        this.brand=brand;
+        this.serialnumber=serialNumber;
+        this.fuelAmount=fuelAmount;
+        this.maxFuel=maxFuel;
+        this.colour=colour;
+    }
     public void drive()
     {
         this.fuelAmount=this.fuelAmount-this.fuelConsumption;
@@ -38,4 +48,26 @@ public class CarObject {
         System.out.println("Es sind noch ganze: "+this.fuelAmount/this.fuelConsumption+" km uebrig.");
     }
 
+    public int getFuelConsumption() {
+        return this.fuelConsumption;
+    }
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getSerialnumber() {
+        return serialnumber;
+    }
+
+    public int getFuelAmount() {
+        return fuelAmount;
+    }
+
+    public int getMaxFuel() {
+        return maxFuel;
+    }
+
+    public String getColour() {
+        return colour;
+    }
 }
