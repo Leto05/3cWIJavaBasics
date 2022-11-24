@@ -1,26 +1,25 @@
 package Objects;
 
 public class CarObject {
+    private Engine engine;
+    private Fuel fuel;
     private int fuelConsumption;
     private String brand;
     private String serialnumber;
-    private int fuelAmount;
     private String carBreaks = "Ich bremse";
-    private int maxFuel;
     private String colour;
-    public CarObject (int fuelConsumption, String brand, String serialNumber, int fuelAmount,int maxFuel,String colour)
+    public CarObject (Fuel fuel,Engine engine,int fuelConsumption, String brand, String serialNumber, String colour)
     {
+        this.fuel=fuel;
+        this.engine=engine;
         this.fuelConsumption=fuelConsumption;
         this.brand=brand;
         this.serialnumber=serialNumber;
-        this.fuelAmount=fuelAmount;
-        this.maxFuel=maxFuel;
         this.colour=colour;
     }
-    public void drive()
+    public void drive(int speed)
     {
-        this.fuelAmount=this.fuelAmount-this.fuelConsumption;
-        System.out.println("I am driving");
+        System.out.println("I am driving with  horsepower: "+getEngine().getHorsePower());
     }
     public void carBreak(){
         System.out.println(this.carBreaks);
@@ -69,5 +68,9 @@ public class CarObject {
 
     public String getColour() {
         return colour;
+    }
+
+    public Engine getEngine() {
+        return engine;
     }
 }
