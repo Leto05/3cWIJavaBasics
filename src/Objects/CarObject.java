@@ -1,5 +1,7 @@
 package Objects;
 
+import java.util.List;
+
 public class CarObject {
     private Engine engine;
     private Fuel fuel;
@@ -25,7 +27,7 @@ public class CarObject {
         System.out.println(this.carBreaks);
     }
     public void turboBoost(){
-        if(this.fuelAmount>maxFuel*0.1){
+        if(getFuel().getFuelAmount()>getFuel().getMaxFuel()*0.1){
             System.out.println("SuperBoostMode");
         }
         else{
@@ -44,7 +46,7 @@ public class CarObject {
         }
     }
     public void getRemainingRange(){
-        System.out.println("Es sind noch ganze: "+this.fuelAmount/this.fuelConsumption+" km uebrig.");
+        System.out.println("Es sind noch ganze: "+getFuel().getFuelAmount()/this.fuelConsumption+" km uebrig.");
     }
 
     public int getFuelConsumption() {
@@ -58,19 +60,15 @@ public class CarObject {
         return serialnumber;
     }
 
-    public int getFuelAmount() {
-        return fuelAmount;
-    }
-
-    public int getMaxFuel() {
-        return maxFuel;
-    }
-
     public String getColour() {
         return colour;
     }
 
     public Engine getEngine() {
         return engine;
+    }
+
+    public Fuel getFuel() {
+        return fuel;
     }
 }

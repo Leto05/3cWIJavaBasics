@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Refactoring. Auto Variablen private gestellt. Konstruktor, getter und setter eingebaut.">
-      <change afterPath="$PROJECT_DIR$/src/Objects/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Objects/Fuel.java" afterDir="false" />
+    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Has A Beziehung für Engine. Noch Probleme.">
+      <change afterPath="$PROJECT_DIR$/src/Objects/RearMirror.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Objects/CarObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/CarObject.java" afterDir="false" />
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668427222672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Has A Beziehung für Engine. Noch Probleme.">
+      <created>1669278562015</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669278562015</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +162,7 @@
     <MESSAGE value="Tic Tac Toe fertig, OO Einstieg toutorials geschaut." />
     <MESSAGE value="Auto und Objekt Auto erstellt. Methoden Auto." />
     <MESSAGE value="Refactoring. Auto Variablen private gestellt. Konstruktor, getter und setter eingebaut." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring. Auto Variablen private gestellt. Konstruktor, getter und setter eingebaut." />
+    <MESSAGE value="Has A Beziehung für Engine. Noch Probleme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Has A Beziehung für Engine. Noch Probleme." />
   </component>
 </project>
