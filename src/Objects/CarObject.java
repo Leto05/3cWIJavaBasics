@@ -3,6 +3,7 @@ package Objects;
 import java.util.List;
 
 public class CarObject {
+    private List<RearMirror> mirrors;
     private Engine engine;
     private Fuel fuel;
     private int fuelConsumption;

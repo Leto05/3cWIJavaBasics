@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Has A Beziehung für Engine. Noch Probleme.">
-      <change afterPath="$PROJECT_DIR$/src/Objects/RearMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoteProjekt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Objects/CarObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/CarObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\letoh\Desktop\Java3cWI\out" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Car">
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car" />
       <module name="Java3cWI" />
@@ -76,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Car" />
         <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.DiceGame" />
         <item itemvalue="Application.IfStatement" />
       </list>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669278562015</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Has A Beziehung für Engine. Noch Probleme.">
+      <created>1669883459659</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669883459659</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
