@@ -1,6 +1,8 @@
 import Objects.CarObject;
 import Objects.Engine;
 import Objects.Fuel;
+import Objects.RearMirror;
+import java.util.List;
 
 import java.util.Scanner;
 
@@ -12,10 +14,12 @@ public class Car {
         Engine e2 = new Engine(120, Engine.TYPE.GAS );
         Fuel f1 = new Fuel(60,60);
         Fuel f2 = new Fuel(45,50);
+        RearMirror m1 = new RearMirror(3,1);
+        RearMirror m2 = new RearMirror(3,2);
 
-        CarObject c1 = new CarObject(f1,e1,5,"Audi","A1234","green");
+        CarObject c1 = new CarObject(m1,f1,e1,5,"Audi","A1234","green");
 
-        CarObject c2 = new CarObject(f2,e2,5,"Opel","O1234","grey");
+        CarObject c2 = new CarObject(m2,f2,e2,5,"Opel","O1234","grey");
 
         System.out.println(c2.getFuel().getFuelAmount());
         System.out.println("Mit welcher Power fahren?");

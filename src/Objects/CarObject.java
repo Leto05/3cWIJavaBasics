@@ -11,7 +11,7 @@ public class CarObject {
     private String serialnumber;
     private String carBreaks = "Ich bremse";
     private String colour;
-    public CarObject (Fuel fuel,Engine engine,int fuelConsumption, String brand, String serialNumber, String colour)
+    public CarObject (RearMirror mirrors ,Fuel fuel,Engine engine,int fuelConsumption, String brand, String serialNumber, String colour)
     {
         this.fuel=fuel;
         this.engine=engine;

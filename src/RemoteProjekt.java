@@ -3,7 +3,12 @@ import Objects.Remote;
 
 public class RemoteProjekt {
     public static void main(String[] args){
-        Remote battery1 = new Remote(100);
-        Remote battery2 = new Remote(80);
+        Battery b1= new Battery(80);
+        Battery b2 = new Battery(100);
+        Remote remote1 = new Remote(b1,b2);
+
+        remote1.turnOn(b1.getBatteryStatus(),b2.getBatteryStatus());
+        remote1.turnOff();
+        remote1.getStatus(b1.getBatteryStatus(), b2.getBatteryStatus());
     }
 }
