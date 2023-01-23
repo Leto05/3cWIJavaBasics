@@ -1,4 +1,4 @@
-package Objects;
+package at.let.Objects;
 
 public class RearMirror {
     private int size;

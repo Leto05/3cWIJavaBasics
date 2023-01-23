@@ -1,4 +1,4 @@
-package Objects;
+package at.let.Objects;
 
 public class Battery {
     private int BatteryStatus;

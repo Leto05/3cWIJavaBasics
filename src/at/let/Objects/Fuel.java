@@ -1,4 +1,4 @@
-package Objects;
+package at.let.Objects;
 
 public class Fuel {
     private int fuelAmount;

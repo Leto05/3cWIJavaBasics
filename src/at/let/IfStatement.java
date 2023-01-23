@@ -1,3 +1,5 @@
+package at.let;
+
 import java.util.Random;
 
 public class IfStatement

@@ -1,5 +1,7 @@
-import Objects.Battery;
-import Objects.Remote;
+package at.let;
+
+import at.let.Objects.Battery;
+import at.let.Objects.Remote;
 
 public class RemoteProjekt {
     public static void main(String[] args){

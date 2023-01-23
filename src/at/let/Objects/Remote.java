@@ -1,4 +1,6 @@
-package Objects;
+package at.let.Objects;
+
+import at.let.Objects.Battery;
 
 public class Remote {
 private int batteryStatus;
