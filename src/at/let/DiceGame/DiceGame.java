@@ -1,4 +1,4 @@
-package at.let;
+package at.let.DiceGame;
 
 import java.util.Random;
 import java.util.Scanner;

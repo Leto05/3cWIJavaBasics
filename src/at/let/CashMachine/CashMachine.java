@@ -1,4 +1,4 @@
-package at.let;
+package at.let.CashMachine;
 
 import java.util.Scanner;
 

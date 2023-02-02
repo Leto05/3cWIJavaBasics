@@ -1,4 +1,4 @@
-package at.let;
+package at.let.TicTacToe;
 
 import java.util.Scanner;
 

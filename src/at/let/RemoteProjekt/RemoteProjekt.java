@@ -1,4 +1,4 @@
-package at.let;
+package at.let.RemoteProjekt;
 
 import at.let.Objects.Battery;
 import at.let.Objects.Remote;
