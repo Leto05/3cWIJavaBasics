@@ -20,4 +20,13 @@ public class LampObject {
         System.out.println(glowingObjects.get(i).getName());
         }
     }
+    public void turnAllOn()
+    {
+        for( int i =0; i< glowingObjects.size();i++)
+        glowingObjects.get(i).setOn(true);
+    }
+    public void turnOn(GlowingObject glowingObject)
+    {
+        //glowingObjects.get().setOn(true);
+    }
 }
