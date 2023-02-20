@@ -13,4 +13,11 @@ public class LampObject {
     public void addGlowingObject(GlowingObject glowingObject){
         this.glowingObjects.add(glowingObject);
     }
+    public void printNamesOfLightElements()
+    {
+        for( int i =0; i< glowingObjects.size();i++)
+        {
+        System.out.println(glowingObjects.get(i).getName());
+        }
+    }
 }

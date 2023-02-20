@@ -5,13 +5,14 @@ public class GlowingObject {
     private String Color;
     private int powerUsage;
     private boolean on;
+    private int status;
 
-    public GlowingObject(String name, String color, int powerUsage, boolean on) {
-        Name = name;
-        Color = color;
+    public GlowingObject(String name, String color, int powerUsage, boolean on, int status) {
+        this.Name = name;
+        this.Color = color;
         this.powerUsage = powerUsage;
-
         this.on = on;
+        this.status=status;
     }
 
     public String getName() {
@@ -44,5 +45,13 @@ public class GlowingObject {
 
     public void setOn(boolean on) {
         this.on = on;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }
