@@ -1,4 +1,4 @@
-package at.let.Objects;
+package at.let.Lampe;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +28,9 @@ public class LampObject {
     public void turnOn(GlowingObject glowingObject)
     {
         //glowingObjects.get().setOn(true);
+    }
+
+    public void overAllPowerUsage(){
+
     }
 }

@@ -1,8 +1,6 @@
 package at.let.Lampe;
 
 import at.let.Objects.Battery;
-import at.let.Objects.GlowingObject;
-import at.let.Objects.LampObject;
 
 public class Lampe {
     public static void main(String[] args)

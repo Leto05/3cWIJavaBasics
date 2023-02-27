@@ -1,4 +1,4 @@
-package calculator;
+package at.let.calculator;
 
 public class Teacher {
     private String name;

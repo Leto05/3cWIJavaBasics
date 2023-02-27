@@ -1,4 +1,4 @@
-package at.let.Objects;
+package at.let.Lampe;
 
 public class GlowingObject {
     private String Name;
