@@ -23,14 +23,32 @@ public class LampObject {
     public void turnAllOn()
     {
         for( int i =0; i< glowingObjects.size();i++)
-        glowingObjects.get(i).setOn(true);
+            if(glowingObjects.get(i).isOn()==false)
+            {
+                glowingObjects.get(i).setOn(true);
+            }
     }
-    public void turnOn(GlowingObject glowingObject)
+    public void turnOn(int glowingObject)
     {
-        //glowingObjects.get().setOn(true);
+        if(glowingObjects.get(glowingObject).isOn()==false)
+        {
+        glowingObjects.get(glowingObject).setOn(true);
+        }
+        else {
+            System.out.println("Das Element ist bereits eingeschalten");
+        }
     }
 
-    public void overAllPowerUsage(){
+    public void overAveragePowerUsage(){
+        int sum = 0;
+        for( int i =0; i< glowingObjects.size();i++)
+        {
+        if(glowingObjects.get(i).isOn()==true)
 
+            {
+                sum = sum+glowingObjects.get(i).getPowerUsage();
+            }
+        }
+        System.out.println("gesamter Stromverbrauch: "+sum);
     }
 }

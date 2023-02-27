@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Weiter bei Lampe.">
+    <list default="true" id="639eff6c-6905-4213-ab1f-efa41b703683" name="Changes" comment="Lampe fast fertig. Restliche Funktionen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/let/Lampe/GlowingObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/Lampe/GlowingObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/let/Lampe/LampObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/Lampe/LampObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/let/Lampe/Lampe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/Lampe/Lampe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/let/Objects/GlowingObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/Lampe/GlowingObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/let/Objects/LampObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/Lampe/LampObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/let/calculator/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676894627324</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lampe fast fertig. Restliche Funktionen">
+      <created>1677494846739</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677494846739</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +252,7 @@
     <MESSAGE value="Upper and Lowercase" />
     <MESSAGE value="Lampe fast fertig" />
     <MESSAGE value="Weiter bei Lampe." />
-    <option name="LAST_COMMIT_MESSAGE" value="Weiter bei Lampe." />
+    <MESSAGE value="Lampe fast fertig. Restliche Funktionen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lampe fast fertig. Restliche Funktionen" />
   </component>
 </project>

@@ -44,6 +44,7 @@ public class GlowingObject {
     }
 
     public void setOn(boolean on) {
+
         this.on = on;
     }
 
